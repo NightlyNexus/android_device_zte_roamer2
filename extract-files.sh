@@ -37,50 +37,57 @@ adb pull /system/etc/firmware/yamato_pm4.fw ../../../vendor/zte/$DEVICE/propriet
 
 
 #RIL files
-adb pull /system/lib/libril-qc-1.so ../../../vendor/zte/$DEVICE/proprietary/libril-qc-1.so
-adb pull /system/lib/libril-qcril-hook-oem.so ../../../vendor/zte/$DEVICE/proprietary/libril-qcril-hook-oem.so
-adb pull /system/lib/libdiag.so ../../../vendor/zte/$DEVICE/proprietary/libdiag.so
-adb pull /system/lib/liboncrpc.so ../../../vendor/zte/$DEVICE/proprietary/liboncrpc.so
-adb pull /system/lib/libqmi.so ../../../vendor/zte/$DEVICE/proprietary/libqmi.so
-adb pull /system/lib/libdsm.so ../../../vendor/zte/$DEVICE/proprietary/libdsm.so
-adb pull /system/lib/libqueue.so ../../../vendor/zte/$DEVICE/proprietary/libqueue.so
-adb pull /system/lib/libcm.so ../../../vendor/zte/$DEVICE/proprietary/libcm.so
-adb pull /system/lib/libmmgsdilib.so ../../../vendor/zte/$DEVICE/proprietary/libmmgsdilib.so
-adb pull /system/lib/libgsdi_exp.so ../../../vendor/zte/$DEVICE/proprietary/libgsdi_exp.so
-adb pull /system/lib/libgstk_exp.so ../../../vendor/zte/$DEVICE/proprietary/libgstk_exp.so
-adb pull /system/lib/libwms.so ../../../vendor/zte/$DEVICE/proprietary/libwms.so
-adb pull /system/lib/libnv.so ../../../vendor/zte/$DEVICE/proprietary/libnv.so
-adb pull /system/lib/libwmsts.so ../../../vendor/zte/$DEVICE/proprietary/libwmsts.so
-adb pull /system/lib/libpbmlib.so ../../../vendor/zte/$DEVICE/proprietary/libpbmlib.so
-adb pull /system/lib/libdss.so ../../../vendor/zte/$DEVICE/proprietary/libdss.so
 adb pull /system/lib/libauth.so ../../../vendor/zte/$DEVICE/proprietary/libauth.so
-
-#camera
-adb pull /system/lib/liboemcamera.so ../../../vendor/zte/$DEVICE/proprietary/liboemcamera.so
+adb pull /system/lib/libcm.so ../../../vendor/zte/$DEVICE/proprietary/libcm.so
+adb pull /system/lib/libcameraservice.so ../../../vendor/zte/$DEVICE/proprietary/libcameraservice.so
+adb pull /system/lib/libcamera_client.so ../../../vendor/zte/$DEVICE/proprietary/libcamera_client.so
+adb pull /system/lib/libdiag.so ../../../vendor/zte/$DEVICE/proprietary/libdiag.so
+adb pull /system/lib/libdivxdrmdecrypt.so ../../../vendor/zte/$DEVICE/proprietary/libdivxdrmdecrypt.so
+adb pull /system/lib/libdsi_netctrl.so ../../../vendor/zte/$DEVICE/proprietary/libdsi_netctrl.so
+adb pull /system/lib/libdsm.so ../../../vendor/zte/$DEVICE/proprietary/libdsm.so
+adb pull /system/lib/libdss.so ../../../vendor/zte/$DEVICE/proprietary/libdss.so
+adb pull /system/lib/libdsutils.so ../../../vendor/zte/$DEVICE/proprietary/libdsutils.so
+adb pull /system/lib/libhardware.so ../../../vendor/zte/$DEVICE/proprietary/libhardware.so
+adb pull /system/lib/libhardware_legacy.so ../../../vendor/zte/$DEVICE/proprietary/libhardware_legacy.so
+adb pull /system/lib/libidl.so ../../../vendor/zte/$DEVICE/proprietary/libidl.so
+adb pull /system/lib/libmm-adspsvc.so ../../../vendor/zte/$DEVICE/proprietary/libmm-adspsvc.so
+adb pull /system/lib/libnetmgr.so ../../../vendor/zte/$DEVICE/proprietary/libnetmgr.so
+adb pull /system/lib/libnv.so ../../../vendor/zte/$DEVICE/proprietary/libnv.so
+adb pull /system/lib/libOmxAacDec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxAacDec.so
+adb pull /system/lib/libOmxH264Dec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxH264Dec.so
+adb pull /system/lib/libOmxMpeg4Dec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxMpeg4Dec.so
+adb pull /system/lib/libOmxMp3Dec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxMp3Dec.so
+adb pull /system/lib/libOmxVidEnc.so ../../../vendor/zte/$DEVICE/proprietary/libOmxVidEnc.so
+adb pull /system/lib/libOmxVp8Dec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxVp8Dec.so
+adb pull /system/lib/liboncrpc.so ../../../vendor/zte/$DEVICE/proprietary/liboncrpc.so
+adb pull /system/lib/libpbmlib.so ../../../vendor/zte/$DEVICE/proprietary/libpbmlib.so
+adb pull /system/lib/libqdp.so ../../../vendor/zte/$DEVICE/proprietary/libqdp.so
+adb pull /system/lib/libqmi.so ../../../vendor/zte/$DEVICE/proprietary/libqmi.so
+adb pull /system/lib/libqmiservices.so ../../../vendor/zte/$DEVICE/proprietary/libqmiservices.so
+adb pull /system/lib/libqueue.so ../../../vendor/zte/$DEVICE/proprietary/libqueue.so
+adb pull /system/lib/libril-qc-1.so ../../../vendor/zte/$DEVICE/proprietary/libril-qc-1.so
+adb pull /system/lib/libril-qc-qmi-1.so ../../../vendor/zte/$DEVICE/proprietary/libril-qc-qmi-1.so
+adb pull /system/lib/libril-qcril-hook-oem.so ../../../vendor/zte/$DEVICE/proprietary/libril-qcril-hook-oem.so
+adb pull /system/lib/libwms.so ../../../vendor/zte/$DEVICE/proprietary/libwms.so
+adb pull /system/lib/libwmsts.so ../../../vendor/zte/$DEVICE/proprietary/libwmsts.so
+adb pull /system/lib/libcommondefs.so ../../../vendor/zte/$DEVICE/proprietary/libcommondefs.so
+adb pull /system/lib/libgenlock.so ../../../vendor/zte/$DEVICE/proprietary/libgenlock.so
+adb pull /system/lib/libgemini.so ../../../vendor/zte/$DEVICE/proprietary/libgemini.so
+adb pull /system/lib/libgps.utils.so ../../../vendor/zte/$DEVICE/proprietary/libgps.utils.so
 adb pull /system/lib/libmmjpeg.so ../../../vendor/zte/$DEVICE/proprietary/libmmjpeg.so
 adb pull /system/lib/libmmipl.so ../../../vendor/zte/$DEVICE/proprietary/libmmipl.so
-
-#OMX
-adb pull /system/lib/libOmxEvrcEnc.so ../../../vendor/zte/$DEVICE/proprietary/libOmxEvrcEnc.so
-adb pull /system/lib/libOmxAacDec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxAacDec.so
-adb pull /system/lib/libOmxWmvDec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxWmvDec.so
-adb pull /system/lib/libOmxAmrEnc.so ../../../vendor/zte/$DEVICE/proprietary/libOmxAmrEnc.so
-adb pull /system/lib/libOmxAdpcmDec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxAdpcmDec.so
-adb pull /system/lib/libOmxEvrcDec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxEvrcDec.so
-adb pull /system/lib/libOmxH264Dec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxH264Dec.so
-adb pull /system/lib/libOmxAmrDec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxAmrDec.so
-adb pull /system/lib/libOmxAmrwbDec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxAmrwbDec.so
-adb pull /system/lib/libOmxWmaDec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxWmaDec.so
-adb pull /system/lib/libOmxQcelp13Enc.so ../../../vendor/zte/$DEVICE/proprietary/libOmxQcelp13Enc.so
-adb pull /system/lib/libOmxMp3Dec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxMp3Dec.so
-adb pull /system/lib/libOmxMpeg4Dec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxMpeg4Dec.so
-adb pull /system/lib/libOmxVidEnc.so ../../../vendor/zte/$DEVICE/proprietary/libOmxVidEnc.so
-adb pull /system/lib/libOmxAmrRtpDec.so ../../../vendor/zte/$DEVICE/proprietary/libOmxAmrRtpDec.so
-adb pull /system/lib/libOmxAacEnc.so ../../../vendor/zte/$DEVICE/proprietary/libOmxAacEnc.so
-adb pull /system/lib/libmm-adspsvc.so ../../../vendor/zte/$DEVICE/proprietary/libmm-adspsvc.so
-
-#GPS
-adb pull /system/lib/libcommondefs.so ../../../vendor/zte/$DEVICE/proprietary/libcommondefs.so
+adb pull /system/lib/liboemcamera.so ../../../vendor/zte/$DEVICE/proprietary/liboemcamera.so
+adb pull /system/lib/libloc_adapter.so ../../../vendor/zte/$DEVICE/proprietary/libloc_adapter.so
+adb pull /system/lib/libloc_api-rpc-qc.so ../../../vendor/zte/$DEVICE/proprietary/libloc_api-rpc-qc.so
+adb pull /system/lib/libloc_eng.so ../../../vendor/zte/$DEVICE/proprietary/libloc_eng.so
+adb pull /system/lib/libqdi.so ../../../vendor/zte/$DEVICE/proprietary/libqdi.so
+adb pull /system/lib/librpc.so ../../../vendor/zte/$DEVICE/proprietary/librpc.so
+adb pull /system/lib/libsc-a2xx.so ../../../vendor/zte/$DEVICE/proprietary/libsc-a2xx.so
+adb pull /system/lib/libgsl.so ../../../vendor/zte/$DEVICE/proprietary/libgsl.so
+adb pull /system/lib/libOpenVG.so ../../../vendor/zte/$DEVICE/proprietary/libOpenVG.so
+adb pull /system/lib/libbluetooth.so ../../../vendor/zte/$DEVICE/proprietary/libbluetooth.so
+adb pull /system/lib/libbluetoothd.so ../../../vendor/zte/$DEVICE/proprietary/libbluetoothd.so
+#adb pull /system/lib/qwerty.so ../../../vendor/zte/$DEVICE/proprietary/qwerty.so
 
 #NEW
 #adb pull /system/lib/libaudioflinger.so ../../../vendor/zte/$DEVICE/proprietary/libaudioflinger.so
@@ -108,64 +115,60 @@ vendor/zte/__DEVICE__/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adre
 vendor/zte/__DEVICE__/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \\
 vendor/zte/__DEVICE__/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \\
 vendor/zte/__DEVICE__/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \\
-vendor/zte/__DEVICE__/proprietary/libgsl.so:system/lib//libgsl.so \\
+vendor/zte/__DEVICE__/proprietary/libgsl.so:system/lib/libgsl.so \\
 vendor/zte/__DEVICE__/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \\
 vendor/zte/__DEVICE__/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \\
-vendor/zte/__DEVICE__/proprietary/qmuxd:system/bin/qmuxd \\
-vendor/zte/__DEVICE__/proprietary/akmd2:system/bin/akmd2 \\
-vendor/zte/__DEVICE__/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \\
-vendor/zte/__DEVICE__/proprietary/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \\
-vendor/zte/__DEVICE__/proprietary/libdiag.so:system/lib/libdiag.so \\
-vendor/zte/__DEVICE__/proprietary/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \\
-vendor/zte/__DEVICE__/proprietary/liboncrpc.so:system/lib/liboncrpc.so \\
-vendor/zte/__DEVICE__/proprietary/libqmi.so:system/lib/libqmi.so \\
-vendor/zte/__DEVICE__/proprietary/libdsm.so:system/lib/libdsm.so \\
-vendor/zte/__DEVICE__/proprietary/libqueue.so:system/lib/libqueue.so \\
-vendor/zte/__DEVICE__/proprietary/libdll.so:system/lib/libdll.so \\
-vendor/zte/__DEVICE__/proprietary/libcm.so:system/lib/libcm.so \\
-vendor/zte/__DEVICE__/proprietary/libmmgsdilib.so:system/lib/libmmgsdilib.so \\
-vendor/zte/__DEVICE__/proprietary/libgsdi_exp.so:system/lib/libgsdi_exp.so \\
-vendor/zte/__DEVICE__/proprietary/libgstk_exp.so:system/lib/libgstk_exp.so \\
-vendor/zte/__DEVICE__/proprietary/libwms.so:system/lib/libwms.so \\
-vendor/zte/__DEVICE__/proprietary/libnv.so:system/lib/libnv.so \\
-vendor/zte/__DEVICE__/proprietary/libwmsts.so:system/lib/libwmsts.so \\
-vendor/zte/__DEVICE__/proprietary/libpbmlib.so:system/lib/libpbmlib.so \\
-vendor/zte/__DEVICE__/proprietary/libdss.so:system/lib/libdss.so \\
 vendor/zte/__DEVICE__/proprietary/libauth.so:system/lib/libauth.so \\
-vendor/zte/__DEVICE__/proprietary/liboemcamera.so:system/lib/liboemcamera.so \\
-vendor/zte/__DEVICE__/proprietary/liboemcamera.so:obj/lib/liboemcamera.so \\
+vendor/zte/__DEVICE__/proprietary/libcm.so:system/lib/libcm.so \\
+vendor/zte/__DEVICE__/proprietary/libcameraservice.so:system/lib/libcameraservice.so \\
+vendor/zte/__DEVICE__/proprietary/libcamera_client.so:system/lib/libcamera_client.so \\
+vendor/zte/__DEVICE__/proprietary/libdiag.so:system/lib/libdiag.so \\
+vendor/zte/__DEVICE__/proprietary/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \\
+vendor/zte/__DEVICE__/proprietary/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \\
+vendor/zte/__DEVICE__/proprietary/libdsm.so:system/lib/libdsm.so \\
+vendor/zte/__DEVICE__/proprietary/libdss.so:system/lib/libdss.so \\
+vendor/zte/__DEVICE__/proprietary/libdsutils.so:system/lib/libdsutils.so \\
+vendor/zte/__DEVICE__/proprietary/libhardware.so:system/lib/libhardware.so \\
+vendor/zte/__DEVICE__/proprietary/libhardware_legacy.so:/system/lib/libhardware_legacy.so \\
+vendor/zte/__DEVICE__/proprietary/libidl.so:system/lib/libidl.so \\
+vendor/zte/__DEVICE__/proprietary/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \\
+vendor/zte/__DEVICE__/proprietary/libnetmgr.so:system/lib/libnetmgr.so \\
+vendor/zte/__DEVICE__/proprietary/libnv.so:system/lib/libnv.so \\
+vendor/zte/__DEVICE__/proprietary/libOmxAacDec.so:system/lib/libOmxAacDec.so \\
+vendor/zte/__DEVICE__/proprietary/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \\
+vendor/zte/__DEVICE__/proprietary/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \\
+vendor/zte/__DEVICE__/proprietary/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \\
+vendor/zte/__DEVICE__/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \\
+vendor/zte/__DEVICE__/proprietary/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \\
+vendor/zte/__DEVICE__/proprietary/liboncrpc.so:system/lib/liboncrpc.so \\
+vendor/zte/__DEVICE__/proprietary/libpbmlib.so:system/lib/libpbmlib.so \\
+vendor/zte/__DEVICE__/proprietary/libqdp.so:system/lib/libqdp.so \\
+vendor/zte/__DEVICE__/proprietary/libqmi.so:system/lib/libqmi.so \\
+vendor/zte/__DEVICE__/proprietary/libqmiservices.so:system/lib/libqmiservices.so \\
+vendor/zte/__DEVICE__/proprietary/libqueue.so:system/lib/libqueue.so \\
+vendor/zte/__DEVICE__/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \\
+vendor/zte/__DEVICE__/proprietary/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \\
+vendor/zte/__DEVICE__/proprietary/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \\
+vendor/zte/__DEVICE__/proprietary/libwms.so:system/lib/libwms.so \\
+vendor/zte/__DEVICE__/proprietary/libwmsts.so:system/lib/libwmsts.so \\
+vendor/zte/__DEVICE__/proprietary/libcommondefs.so:system/lib/libcommondefs.so \\
+vendor/zte/__DEVICE__/proprietary/libgenlock.so:system/lib/libgenlock.so \\
+vendor/zte/__DEVICE__/proprietary/libgemini.so:system/lib/libgemini.so \\
+vendor/zte/__DEVICE__/proprietary/libgps.utils.so:system/lib/libgps.utils.so \\
 vendor/zte/__DEVICE__/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \\
 vendor/zte/__DEVICE__/proprietary/libmmipl.so:system/lib/libmmipl.so \\
-vendor/zte/__DEVICE__/proprietary/hci_qcomm_init:system/bin/hci_qcomm_init \\
-vendor/zte/__DEVICE__/proprietary/libOmxEvrcEnc.so:/system/lib/libOmxEvrcEnc.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxAacDec.so:/system/lib/libOmxAacDec.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxWmvDec.so:/system/lib/libOmxWmvDec.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxQcelpDec.so:/system/lib/libOmxQcelpDec.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxAmrEnc.so:/system/lib/libOmxAmrEnc.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxAdpcmDec.so:/system/lib/libOmxAdpcmDec.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxEvrcDec.so:/system/lib/libOmxEvrcDec.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxH264Dec.so:/system/lib/libOmxH264Dec.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxAmrDec.so:/system/lib/libOmxAmrDec.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxAmrwbDec.so:/system/lib/libOmxAmrwbDec.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxWmaDec.so:/system/lib/libOmxWmaDec.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxQcelp13Enc.so:/system/lib/libOmxQcelp13Enc.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxMp3Dec.so:/system/lib/libOmxMp3Dec.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxMpeg4Dec.so:/system/lib/libOmxMpeg4Dec.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxVidEnc.so:/system/lib/libOmxVidEnc.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxAmrRtpDec.so:/system/lib/libOmxAmrRtpDec.so \\
-vendor/zte/__DEVICE__/proprietary/libOmxAacEnc.so:/system/lib/libOmxAacEnc.so \\
-vendor/zte/__DEVICE__/proprietary/libmm-adspsvc.so:/system/lib/libmm-adspsvc.so \\
-vendor/zte/__DEVICE__/proprietary/libomx_aacdec_sharedlibrary.so:system/lib/libomx_aacdec_sharedlibrary.so \\
-vendor/zte/__DEVICE__/proprietary/libomx_amrdec_sharedlibrary.so:system/lib/libomx_amrdec_sharedlibrary.so \\
-vendor/zte/__DEVICE__/proprietary/libomx_amrenc_sharedlibrary.so:system/lib/libomx_amrenc_sharedlibrary.so \\
-vendor/zte/__DEVICE__/proprietary/libomx_avcdec_sharedlibrary.so:system/lib/libomx_avcdec_sharedlibrary.so \\
-vendor/zte/__DEVICE__/proprietary/libomx_m4vdec_sharedlibrary.so:system/lib/libomx_m4vdec_sharedlibrary.so \\
-vendor/zte/__DEVICE__/proprietary/libomx_mp3dec_sharedlibrary.so:system/lib/libomx_mp3dec_sharedlibrary.so \\
-vendor/zte/__DEVICE__/proprietary/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so \\
-vendor/zte/__DEVICE__/proprietary/libloc.so:system/lib/libloc.so \\
-vendor/zte/__DEVICE__/proprietary/libloc.so:obj/lib/libloc.so \\
-vendor/zte/__DEVICE__/proprietary/libloc-rpc.so:system/lib/libloc-rpc.so \\
-vendor/zte/__DEVICE__/proprietary/libcommondefs.so:system/lib/libcommondefs.so
+vendor/zte/__DEVICE__/proprietary/liboemcamera.so:system/lib/liboemcamera.so \\
+vendor/zte/__DEVICE__/proprietary/libloc_adapter.so:system/lib/libloc_adapter.so \\
+vendor/zte/__DEVICE__/proprietary/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \\
+vendor/zte/__DEVICE__/proprietary/libloc_eng.so:system/lib/libloc_eng.so \\
+vendor/zte/__DEVICE__/proprietary/libqdi.so:system/lib/libqdi.so \\
+vendor/zte/__DEVICE__/proprietary/librpc.so:system/lib/librpc.so \\
+vendor/zte/__DEVICE__/proprietary/libsc-a2xx.so:system/lib/libsc-a2xx.so \\
+vendor/zte/__DEVICE__/proprietary/libgsl.so:system/lib/libgsl.so \\
+vendor/zte/__DEVICE__/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \\
+vendor/zte/__DEVICE__/proprietary/libbluetooth.so:system/lib/libbluetooth.so \\
+vendor/zte/__DEVICE__/proprietary/libbluetoothd.so:system/lib/libbluetoothd.so
+#vendor/zte/__DEVICE__/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \\
 
 EOF
 
